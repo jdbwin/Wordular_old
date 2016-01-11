@@ -5,6 +5,6 @@ Wordular is a user-generated and curated dictionary. It is a place to store favo
 The application is built on a thin Rails API. The view is handled by React JS. The database is MySQL. I'm also using Babel to transpile ES6.
 
 == TODO
--browser extension for 'right-click-functionality' for saving words
--finish refactoring for better use of ES6
--finish Android version using React-Native
+* browser extension for 'right-click-functionality' for saving words
+* finish refactoring for better use of ES6
+* finish Android version using React-Native
