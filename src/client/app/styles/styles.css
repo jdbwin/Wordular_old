@@ -1,0 +1,205 @@
+/************************
+ * Main
+ * *********************/
+#root {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+* {box-sizing: border-box;}
+body {margin: 0; padding: 0;}
+
+html {
+  font-family: Roboto;
+}
+
+/************************
+ * Logged Out
+ * *********************/
+.splash {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.splash h1 {
+  text-align: center;
+}
+
+.splash h2 {
+  position: absolute;
+  top: 20%;
+  text-align: center;
+  width: 100%;
+}
+
+.splash-buttons {
+  position: relative;
+  top: 60%;
+  text-align: center;
+}
+
+.sign-in {
+  display: inline-block;
+  margin-right: 2.5%;
+}
+
+.sign-up {
+  display: inline-block;
+  margin-left: 2.5%;
+}
+
+.authentication {
+  text-align: center;
+  position: fixed;
+  top: 40%;
+  left: 35%;
+  width: 30%;
+}
+
+.authentication ul {
+  list-style: none;
+  padding: 0;
+}
+
+.authentication ul:last-child {
+}
+
+/************************
+ * Logged In
+ * *********************/
+
+.header {
+  position: fixed;
+  top: 0%;
+  height: 5%;
+  width: 100%;
+  background-color: lightgrey;
+}
+.word-bank {
+  position: absolute;
+  left: 25%;
+  top: 10%;
+  height: 80%;
+  width: 50%;
+  text-align: left;
+}
+
+.word-bank h1 {
+  text-align: center;
+}
+
+.word-bank ul {
+  padding: 0;
+}
+
+div.filter-wordbank {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  list-style: none;
+  width: 10%;
+  padding: 0% !important;
+  background-color: lightgrey !important;
+}
+
+.filter-wordbank ul {
+  list-style: none;
+}
+
+/* Modal Styles */
+aside {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1050;
+  padding: 80px 40px;
+  overflow-y: auto;
+  background: rgba(100, 100, 100, 0.5);
+}
+aside > section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 50px;
+  border-radius: 15px;
+  position: relative;
+  border: 3px solid lightgrey;
+  background: #fff;
+}
+aside > section h2 {
+  padding: 0 0 40px 0;
+  margin: 0 0 60px 0;
+  font-weight: 500;
+  font-size: 44px;
+  border-bottom: 2px solid #efefef;
+}
+
+aside .close {
+  font-size: 40px;
+  right: 20px;
+  top: 11px;
+  position: absolute;
+  transition-duration: 0.2;
+  opacity: 1;
+}
+
+aside .close:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+/* Word Search */
+#word-search { 
+  width: 100%;
+  padding: 15px 5px;
+  font-size: 26px;
+  z-index: 9999;
+}
+
+.result-bank {
+  list-style-type: none;
+  padding: 0;
+  font-size: 18px;
+}
+.result-bank > li {
+  list-style-type: none;
+  padding-bottom: 6px;
+}
+.result-bank .result {
+  list-style-type: none;
+  padding: 0 0 18px 0;
+}
+
+.top-five {
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  width: 15%;
+  right: 0%;
+  background-color: lightgrey;
+}
+
+.noteBox {
+  border: 1px solid #000;
+}
+
+.save {
+  background: #eee;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  font-size: 22px;
+  padding: 15px 20px;
+  margin-bottom: 35px;
+}
+
+.card-content {
+  margin-left: 25%;
+  width: 50%;
+}
+
+.definition-partofspeech {
+  text-align: left;
+}
